@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:midterm_app/models/grooming_form.dart';
+import 'package:midterm_app/models/form_model.dart';
 import 'package:provider/provider.dart';
 
 import 'return_form.dart';
@@ -94,8 +94,6 @@ class _GroomingFormState extends State<GroomingForm> {
               } catch (e) {
                 return 'Please enter number only';
               }
-              var a = null;
-              var b = '';
             },
             onSaved: (value) {
               _age = int.parse(value!);

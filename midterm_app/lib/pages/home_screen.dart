@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:midterm_app/pages/menu.dart';
 
 import 'about_us.dart';
 import 'review.dart';
