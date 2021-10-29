@@ -6,8 +6,7 @@ class FormModel extends ChangeNotifier {
   String? _catname;
   String? _catbreed;
 
-  int? _age;
-  int? _catweight;
+  num? _catweight;
 
   get firstName => this._firstname;
 
@@ -34,13 +33,6 @@ class FormModel extends ChangeNotifier {
 
   set catBreed(value) {
     this._catbreed = value;
-    notifyListeners();
-  }
-
-  get age => this._age;
-
-  set age(value) {
-    this._age = value;
     notifyListeners();
   }
 
